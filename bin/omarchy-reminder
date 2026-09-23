@@ -1,0 +1,21 @@
+#!/bin/bash
+# Promemoria in italiano: passa tutto al comando vero di Omarchy, ma traduce
+# il riepilogo JSON letto dall'indicatore della barra (etichetta e tooltip).
+
+for orig in "${OMARCHY_PATH:-/x}/bin/omarchy-reminder" /usr/share/omarchy/bin/omarchy-reminder "$HOME/.local/share/omarchy/bin/omarchy-reminder"; do
+  [[ -x $orig && $orig != "$(readlink -f "$0")" ]] && break
+done
+
+if [[ ${1:-} == show && ( ${2:-} == --json || ${2:-} == -j ) ]] && command -v jq >/dev/null; then
+  "$orig" "$@" | jq -c '
+    .tooltip = (if .count == 0 then "Imposta promemoria"
+                elif .count == 1 then "1 promemoria"
+                else "\(.count) promemoria" end)
+    | .reminders = [ .reminders[]
+        | .label = (.label | if test("^[0-9]+-min reminder$")
+                             then "Promemoria di \(sub("-min reminder$"; "")) min"
+                             else . end) ]'
+  exit ${PIPESTATUS[0]}
+fi
+
+exec "$orig" "$@"

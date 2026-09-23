@@ -1,0 +1,198 @@
+# Scorciatoie di Omarchy (Super+K): descrizione inglese<TAB>italiano. Righe che non ci sono restano come sono.
+Activity	Attività
+Agent	Agente
+Apps menu	Menu app
+Background switcher	Cambia sfondo
+Bar panel 1	Pannello barra 1
+Bar panel 10	Pannello barra 10
+Bar panel 2	Pannello barra 2
+Bar panel 3	Pannello barra 3
+Bar panel 4	Pannello barra 4
+Bar panel 5	Pannello barra 5
+Bar panel 6	Pannello barra 6
+Bar panel 7	Pannello barra 7
+Bar panel 8	Pannello barra 8
+Bar panel 9	Pannello barra 9
+Brightness down	Luminosità giù
+Brightness down precise	Luminosità giù (fine)
+Brightness maximum	Luminosità massima
+Brightness minimum	Luminosità minima
+Brightness up	Luminosità su
+Brightness up precise	Luminosità su (fine)
+Browser (private)	Browser (anonimo)
+Calculator	Calcolatrice
+Calendar	Calendario
+Capture menu	Menu cattura
+Clear reminders	Cancella promemoria
+Clipboard manager	Gestione appunti
+Close all windows	Chiudi tutte le finestre
+Close window	Chiudi finestra
+Color picker	Selettore colore
+Copy URL from Web App	Copia URL dalla web app
+Disable touchpad	Disattiva touchpad
+Dismiss all notifications	Chiudi tutte le notifiche
+Dismiss last notification	Chiudi ultima notifica
+Display	Schermo
+Download Video from Web App	Scarica video dalla web app
+Eject media	Espelli supporto
+Emojis	Emoji
+Enable touchpad	Attiva touchpad
+Expand window down	Allarga finestra in basso
+Expand window down a little	Allarga finestra in basso di poco
+Expand window down a lot	Allarga finestra in basso di molto
+Expand window left	Allarga finestra a sinistra
+Expand window left a little	Allarga finestra a sinistra di poco
+Expand window left a lot	Allarga finestra a sinistra di molto
+Extract text (OCR) from screenshot	Estrai testo (OCR) da screenshot
+File manager (cwd)	File manager (cartella corrente)
+Focus on above window	Vai alla finestra sopra
+Focus on below window	Vai alla finestra sotto
+Focus on left window	Vai alla finestra a sinistra
+Focus on next monitor	Vai al monitor successivo
+Focus on next window	Vai alla finestra successiva
+Focus on previous monitor	Vai al monitor precedente
+Focus on previous window	Vai alla finestra precedente
+Focus on right window	Vai alla finestra a destra
+Former workspace	Workspace usato prima
+Full screen	Schermo intero
+Full width	Larghezza piena
+Hardware menu	Menu hardware
+Herdr keybindings	Scorciatoie Herdr
+Invoke last notification	Apri ultima notifica
+Keybindings	Scorciatoie da tastiera
+Keyboard backlight cycle	Retroilluminazione tastiera (ciclo)
+Keyboard brightness down	Luminosità tastiera giù
+Keyboard brightness up	Luminosità tastiera su
+Lock system	Blocca sistema
+Lyrics karaoke	Testi karaoke
+Make webcam overlay larger	Ingrandisci riquadro webcam
+Make webcam overlay smaller	Rimpicciolisci riquadro webcam
+Monitor scaling down	Riduci scala monitor
+Monitor scaling up	Aumenta scala monitor
+Move active window out of group	Togli finestra dal gruppo
+Move grouped window focus left	Gruppo: finestra a sinistra
+Move grouped window focus right	Gruppo: finestra a destra
+Move window	Sposta finestra
+Move window silently to workspace 1	Sposta finestra al workspace 1 (senza seguirla)
+Move window silently to workspace 10	Sposta finestra al workspace 10 (senza seguirla)
+Move window silently to workspace 2	Sposta finestra al workspace 2 (senza seguirla)
+Move window silently to workspace 3	Sposta finestra al workspace 3 (senza seguirla)
+Move window silently to workspace 4	Sposta finestra al workspace 4 (senza seguirla)
+Move window silently to workspace 5	Sposta finestra al workspace 5 (senza seguirla)
+Move window silently to workspace 6	Sposta finestra al workspace 6 (senza seguirla)
+Move window silently to workspace 7	Sposta finestra al workspace 7 (senza seguirla)
+Move window silently to workspace 8	Sposta finestra al workspace 8 (senza seguirla)
+Move window silently to workspace 9	Sposta finestra al workspace 9 (senza seguirla)
+Move window to group on bottom	Sposta finestra nel gruppo sotto
+Move window to group on left	Sposta finestra nel gruppo a sinistra
+Move window to group on right	Sposta finestra nel gruppo a destra
+Move window to group on top	Sposta finestra nel gruppo sopra
+Move window to scratchpad	Sposta finestra nello scratchpad
+Move window to workspace 1	Sposta finestra al workspace 1
+Move window to workspace 10	Sposta finestra al workspace 10
+Move window to workspace 2	Sposta finestra al workspace 2
+Move window to workspace 3	Sposta finestra al workspace 3
+Move window to workspace 4	Sposta finestra al workspace 4
+Move window to workspace 5	Sposta finestra al workspace 5
+Move window to workspace 6	Sposta finestra al workspace 6
+Move window to workspace 7	Sposta finestra al workspace 7
+Move window to workspace 8	Sposta finestra al workspace 8
+Move window to workspace 9	Sposta finestra al workspace 9
+Move workspace to down monitor	Sposta workspace sul monitor sotto
+Move workspace to left monitor	Sposta workspace sul monitor a sinistra
+Move workspace to right monitor	Sposta workspace sul monitor a destra
+Move workspace to up monitor	Sposta workspace sul monitor sopra
+Music TUI	Musica (TUI)
+Mute	Muto
+Mute microphone	Microfono muto
+Network	Rete
+Next track	Traccia successiva
+Next window in group	Finestra successiva nel gruppo
+Next workspace	Workspace successivo
+Omarchy menu	Menu Omarchy
+Open notification history	Cronologia notifiche
+Passwords	Password
+Pause	Pausa
+Play	Riproduci
+Pop window out (float & pin)	Stacca finestra (flottante e fissata)
+Power	Alimentazione
+Power menu	Menu spegnimento
+Previous track	Traccia precedente
+Previous window in group	Finestra precedente nel gruppo
+Previous workspace	Workspace precedente
+Pseudo window	Finestra pseudo-affiancata
+Reset zoom	Azzera zoom
+Resize window	Ridimensiona finestra
+Restore window width	Ripristina larghezza finestra
+Reveal active window on top	Porta in primo piano la finestra attiva
+Save window width	Salva larghezza finestra
+Screenrecording	Registrazione schermo
+Scroll active workspace backward	Scorri workspace indietro
+Scroll active workspace forward	Scorri workspace avanti
+Set reminder	Imposta promemoria
+Show battery remaining	Mostra batteria residua
+Show reminders	Mostra promemoria
+Show time	Mostra ora
+Shrink window left	Restringi finestra a sinistra
+Shrink window left a little	Restringi finestra a sinistra di poco
+Shrink window left a lot	Restringi finestra a sinistra di molto
+Shrink window up	Restringi finestra in alto
+Shrink window up a little	Restringi finestra in alto di poco
+Shrink window up a lot	Restringi finestra in alto di molto
+Spotify player	Spotify
+Start dictation (push-to-talk)	Avvia dettatura (tieni premuto)
+Stop dictation (push-to-talk)	Ferma dettatura (tieni premuto)
+Swap window down	Scambia con la finestra sotto
+Swap window to the left	Scambia con la finestra a sinistra
+Swap window to the right	Scambia con la finestra a destra
+Swap window up	Scambia con la finestra sopra
+Switch audio output	Cambia uscita audio
+Switch media source	Cambia sorgente multimediale
+Switch to group window 1	Vai alla finestra 1 del gruppo
+Switch to group window 2	Vai alla finestra 2 del gruppo
+Switch to group window 3	Vai alla finestra 3 del gruppo
+Switch to group window 4	Vai alla finestra 4 del gruppo
+Switch to group window 5	Vai alla finestra 5 del gruppo
+Switch to workspace 1	Vai al workspace 1
+Switch to workspace 10	Vai al workspace 10
+Switch to workspace 2	Vai al workspace 2
+Switch to workspace 3	Vai al workspace 3
+Switch to workspace 4	Vai al workspace 4
+Switch to workspace 5	Vai al workspace 5
+Switch to workspace 6	Vai al workspace 6
+Switch to workspace 7	Vai al workspace 7
+Switch to workspace 8	Vai al workspace 8
+Switch to workspace 9	Vai al workspace 9
+System menu	Menu sistema
+Theme menu	Menu temi
+Tiled full screen	Schermo intero affiancato
+Tmux keybindings	Scorciatoie Tmux
+Toggle dictation	Attiva/disattiva dettatura
+Toggle laptop display	Attiva/disattiva schermo portatile
+Toggle laptop display mirroring	Attiva/disattiva duplicazione schermo portatile
+Toggle locking on idle	Attiva/disattiva blocco per inattività
+Toggle menu	Mostra/nascondi menu
+Toggle nightlight	Attiva/disattiva luce notturna
+Toggle scratchpad	Mostra/nascondi scratchpad
+Toggle silencing notifications	Attiva/disattiva silenzio notifiche
+Toggle single-window square aspect	Attiva/disattiva finestra singola quadrata
+Toggle top bar	Mostra/nascondi barra
+Toggle touchpad	Attiva/disattiva touchpad
+Toggle weather	Mostra/nascondi meteo
+Toggle window floating/tiling	Finestra flottante/affiancata
+Toggle window gaps	Attiva/disattiva spazi tra finestre
+Toggle window grouping	Attiva/disattiva gruppo finestre
+Toggle window split	Cambia divisione finestra
+Toggle window transparency	Attiva/disattiva trasparenza finestra
+Toggle workspace layout	Cambia layout workspace
+Transcode	Converti media
+Universal copy	Copia universale
+Universal cut	Taglia universale
+Universal paste	Incolla universale
+Volume down	Volume giù
+Volume down precise	Volume giù (fine)
+Volume up	Volume su
+Volume up precise	Volume su (fine)
+X Post	Post su X
+Zoom in	Ingrandisci
+Terminal	Terminale

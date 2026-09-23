@@ -1,0 +1,691 @@
+{
+  "_nota": "Traduzioni dei plugin della barra. Per ogni plugin: file -> [testo originale, traduzione]. Applicate da plugin-it.sh.",
+  "omarchy.clock": {
+    "Panel.qml": [
+      [
+        "Qt.locale(\"en_US\")",
+        "Qt.locale(\"it_IT\")"
+      ],
+      [
+        "Qt.formatDate(root.today, \"MMMM d\")",
+        "root.today.toLocaleDateString(Qt.locale(\"it_IT\"), \"d MMMM\")"
+      ],
+      [
+        "Qt.formatDate(root.viewDate, \"MMMM yyyy\")",
+        "root.viewDate.toLocaleDateString(Qt.locale(\"it_IT\"), \"MMMM yyyy\")"
+      ],
+      [
+        "text: \"Back to today\"",
+        "text: \"Torna a oggi\""
+      ],
+      [
+        "text: \"BORN\"",
+        "text: \"NATO\""
+      ],
+      [
+        "placeholderText: \"year\"",
+        "placeholderText: \"anno\""
+      ],
+      [
+        "text: \"LIVE TO\"",
+        "text: \"FINO A\""
+      ],
+      [
+        "text: \"LIFE\"",
+        "text: \"VITA\""
+      ],
+      [
+        "text: \"W\"",
+        "text: \"S\""
+      ],
+      [
+        "\"Start weeks on \"",
+        "\"Inizia la settimana di \""
+      ],
+      [
+        "\"Previous month\"",
+        "\"Mese precedente\""
+      ],
+      [
+        "\"Next month\"",
+        "\"Mese successivo\""
+      ]
+    ],
+    "BarWidget.qml": [
+      [
+        "return Qt.formatDateTime(date, activeFormat",
+        "return date.toLocaleString(Qt.locale(\"it_IT\"), activeFormat"
+      ]
+    ]
+  },
+  "omarchy.network": {
+    "Model.js": [
+      [
+        "\"WI-FI BAND: \"",
+        "\"BANDA WI-FI: \""
+      ],
+      [
+        "\"Stay on \"",
+        "\"Resta su \""
+      ],
+      [
+        "\"KNOWN NETWORKS\"",
+        "\"RETI CONOSCIUTE\""
+      ],
+      [
+        "\"OTHER NETWORKS\"",
+        "\"ALTRE RETI\""
+      ],
+      [
+        "\"Passphrase required\"",
+        "\"Password richiesta\""
+      ],
+      [
+        "\"Wrong password\"",
+        "\"Password errata\""
+      ],
+      [
+        "\"Network lost\"",
+        "\"Rete persa\""
+      ],
+      [
+        "return \"Disconnected\"",
+        "return \"Disconnesso\""
+      ],
+      [
+        "\"Connection failed\"",
+        "\"Connessione non riuscita\""
+      ],
+      [
+        "\"Failed to connect\"",
+        "\"Impossibile connettersi\""
+      ]
+    ],
+    "Panel.qml": [
+      [
+        "\"Wiring bits\"",
+        "\"Cablando bit\""
+      ],
+      [
+        "\"Handling packets\"",
+        "\"Smistando pacchetti\""
+      ],
+      [
+        "\"Sorting frames\"",
+        "\"Ordinando frame\""
+      ],
+      [
+        "\"Hauling bytes\"",
+        "\"Trasportando byte\""
+      ],
+      [
+        "\"Routing crumbs\"",
+        "\"Instradando briciole\""
+      ],
+      [
+        "\"Counting collisions\"",
+        "\"Contando collisioni\""
+      ],
+      [
+        "\"Bending light\"",
+        "\"Piegando la luce\""
+      ],
+      [
+        "\"Turn Wi-Fi off\"",
+        "\"Spegni Wi-Fi\""
+      ],
+      [
+        "\"Turn Wi-Fi on\"",
+        "\"Accendi Wi-Fi\""
+      ],
+      [
+        "\"Timed out forgetting\"",
+        "\"Tempo scaduto\""
+      ],
+      [
+        "\"Show QR code\"",
+        "\"Mostra codice QR\""
+      ],
+      [
+        "\"Run a speed test\"",
+        "\"Test di velocità\""
+      ],
+      [
+        "text: \"Packet Loss\"",
+        "text: \"Pacchetti persi\""
+      ],
+      [
+        "text: \"Receiving\"",
+        "text: \"In ricezione\""
+      ],
+      [
+        "text: \"Sending\"",
+        "text: \"In invio\""
+      ],
+      [
+        "text: \"Downloaded\"",
+        "text: \"Scaricati\""
+      ],
+      [
+        "text: \"Uploaded\"",
+        "text: \"Inviati\""
+      ],
+      [
+        "text: \"IP Address\"",
+        "text: \"Indirizzo IP\""
+      ],
+      [
+        "\"Copy IP\"",
+        "\"Copia IP\""
+      ],
+      [
+        "\"Copy gateway\"",
+        "\"Copia gateway\""
+      ],
+      [
+        "text: \"AUTOMATIC\"",
+        "text: \"AUTOMATICA\""
+      ],
+      [
+        "\"Let Wi-Fi pick the band\"",
+        "\"Scelta automatica della banda\""
+      ],
+      [
+        "\"Stay on \"",
+        "\"Resta su \""
+      ],
+      [
+        "text: \"DNS PROVIDER\"",
+        "text: \"PROVIDER DNS\""
+      ],
+      [
+        "\"Use DNS from DHCP\"",
+        "\"Usa i DNS del DHCP\""
+      ],
+      [
+        "\"Set DNS to Cloudflare\"",
+        "\"Usa i DNS di Cloudflare\""
+      ],
+      [
+        "\"Set DNS to Google\"",
+        "\"Usa i DNS di Google\""
+      ],
+      [
+        "\"Set custom DNS servers\"",
+        "\"Imposta DNS personalizzati\""
+      ],
+      [
+        "\"SCANNING WI-FI…\"",
+        "\"RICERCA WI-FI…\""
+      ],
+      [
+        "|| \"Failed\"",
+        "|| \"Non riuscita\""
+      ],
+      [
+        "return \"Connected\"",
+        "return \"Connesso\""
+      ],
+      [
+        "text: \"Forget network\"",
+        "text: \"Dimentica rete\""
+      ],
+      [
+        "|| \"Hidden\"",
+        "|| \"Nascosta\""
+      ],
+      [
+        "\"Identity (user@domain)\"",
+        "\"Identità (utente@dominio)\""
+      ],
+      [
+        "placeholderText: \"Passphrase\"",
+        "placeholderText: \"Password\""
+      ],
+      [
+        "\"Wrong password\" : \"Connecting...\"",
+        "\"Password errata\" : \"Connessione...\""
+      ],
+      [
+        "tooltipText: \"Connect\"",
+        "tooltipText: \"Connetti\""
+      ],
+      [
+        "\"Copy to clipboard\"",
+        "\"Copia negli appunti\""
+      ]
+    ]
+  },
+  "omarchy.power": {
+    "Model.js": [
+      [
+        "return \"Threshold\"",
+        "return \"Soglia\""
+      ],
+      [
+        "return \"On battery\"",
+        "return \"A batteria\""
+      ],
+      [
+        "return \"Fully charged\"",
+        "return \"Carica completa\""
+      ],
+      [
+        "return \"Charging\"",
+        "return \"In carica\""
+      ]
+    ],
+    "Panel.qml": [
+      [
+        "\"Pumping power\"",
+        "\"Pompando energia\""
+      ],
+      [
+        "\"Injecting electrons\"",
+        "\"Iniettando elettroni\""
+      ],
+      [
+        "\"Pouring juice\"",
+        "\"Versando corrente\""
+      ],
+      [
+        "\"Amassing watts\"",
+        "\"Accumulando watt\""
+      ],
+      [
+        "\"Hoarding joules\"",
+        "\"Ammassando joule\""
+      ],
+      [
+        "\"Sucking volts\"",
+        "\"Aspirando volt\""
+      ],
+      [
+        "\"Topping reserves\"",
+        "\"Rabboccando riserve\""
+      ],
+      [
+        "\"Soaking amps\"",
+        "\"Assorbendo ampere\""
+      ],
+      [
+        "\"Inhaling kilowatts\"",
+        "\"Inalando kilowatt\""
+      ],
+      [
+        "\"Slurping power\"",
+        "\"Sorseggiando energia\""
+      ],
+      [
+        "\"Spending joules\"",
+        "\"Spendendo joule\""
+      ],
+      [
+        "\"Draining watts\"",
+        "\"Prosciugando watt\""
+      ],
+      [
+        "\"Burning electrons\"",
+        "\"Bruciando elettroni\""
+      ],
+      [
+        "\"Sipping juice\"",
+        "\"Centellinando corrente\""
+      ],
+      [
+        "\"Spending coulombs\"",
+        "\"Spendendo coulomb\""
+      ],
+      [
+        "\"Bleeding amps\"",
+        "\"Perdendo ampere\""
+      ],
+      [
+        "\"Guzzling volts\"",
+        "\"Trangugiando volt\""
+      ],
+      [
+        "\"Munching reserves\"",
+        "\"Sgranocchiando riserve\""
+      ],
+      [
+        "return \"Fully charged\"",
+        "return \"Carica completa\""
+      ],
+      [
+        "text: \"Battery\"",
+        "text: \"Batteria\""
+      ],
+      [
+        "\"Battery size\"",
+        "\"Capacità\""
+      ],
+      [
+        "\"Charge cycles\"",
+        "\"Cicli di carica\""
+      ],
+      [
+        "\"Charge limit\"",
+        "\"Limite di carica\""
+      ],
+      [
+        "\"Time left\"",
+        "\"Tempo rimanente\""
+      ],
+      [
+        "\"Time to full\"",
+        "\"Carica completa tra\""
+      ],
+      [
+        "\"Battery state\"",
+        "\"Stato batteria\""
+      ],
+      [
+        "\"Discharging\" : \"Charging\"",
+        "\"In scarica\" : \"In carica\""
+      ],
+      [
+        "\"Holding\"",
+        "\"In pausa\""
+      ],
+      [
+        "text: \"POWER PROFILE\"",
+        "text: \"PROFILO ENERGETICO\""
+      ],
+      [
+        "text: String(modelData).charAt(0).toUpperCase() + String(modelData).slice(1)",
+        "text: ({ \"power-saver\": \"Risparmio\", \"balanced\": \"Bilanciato\", \"performance\": \"Prestazioni\" })[String(modelData)] || (String(modelData).charAt(0).toUpperCase() + String(modelData).slice(1))"
+      ]
+    ]
+  },
+  "omarchy.bluetooth": {
+    "Panel.qml": [
+      [
+        "\"Untangling wires\"",
+        "\"Districando fili\""
+      ],
+      [
+        "\"Streaming vikings\"",
+        "\"Trasmettendo vichinghi\""
+      ],
+      [
+        "\"Pairing mysteries\"",
+        "\"Accoppiando misteri\""
+      ],
+      [
+        "\"Herding headsets\"",
+        "\"Radunando cuffie\""
+      ],
+      [
+        "\"Taming radios\"",
+        "\"Domando radio\""
+      ],
+      [
+        "\"Summoning speakers\"",
+        "\"Evocando altoparlanti\""
+      ],
+      [
+        "\"Wrangling codecs\"",
+        "\"Addomesticando codec\""
+      ],
+      [
+        "\"Polishing packets\"",
+        "\"Lucidando pacchetti\""
+      ],
+      [
+        "return \"No adapter\"",
+        "return \"Nessun adattatore\""
+      ],
+      [
+        "return \"Turned Off\"",
+        "return \"Spento\""
+      ],
+      [
+        "\"Turn Bluetooth off\"",
+        "\"Spegni Bluetooth\""
+      ],
+      [
+        "\"Turn Bluetooth on\"",
+        "\"Accendi Bluetooth\""
+      ],
+      [
+        "? \"PAIRED\" : \"AVAILABLE\"",
+        "? \"ASSOCIATI\" : \"DISPONIBILI\""
+      ],
+      [
+        "text: \"CONNECTED\"",
+        "text: \"CONNESSI\""
+      ],
+      [
+        "\"No Bluetooth adapter\"",
+        "\"Nessun adattatore Bluetooth\""
+      ],
+      [
+        "\"Turn Bluetooth on to scan\"",
+        "\"Accendi il Bluetooth per cercare\""
+      ],
+      [
+        "\"Scanning for devices…\"",
+        "\"Ricerca dispositivi…\""
+      ],
+      [
+        "return \"Disconnect\"",
+        "return \"Disconnetti\""
+      ],
+      [
+        "return \"Pair\"",
+        "return \"Associa\""
+      ],
+      [
+        "return \"Connect\"",
+        "return \"Connetti\""
+      ],
+      [
+        "return \"Forgetting…\"",
+        "return \"Rimozione…\""
+      ],
+      [
+        "return \"Disconnecting…\"",
+        "return \"Disconnessione…\""
+      ],
+      [
+        "? \"\" : \"Connected\"",
+        "? \"\" : \"Connesso\""
+      ],
+      [
+        "return \"Connecting…\"",
+        "return \"Connessione…\""
+      ],
+      [
+        "|| \"Device\"",
+        "|| \"Dispositivo\""
+      ],
+      [
+        "tooltipText: \"Forget\"",
+        "tooltipText: \"Dimentica\""
+      ]
+    ]
+  },
+  "omarchy.weather": {
+    "Panel.qml": [
+      [
+        "&language=en&",
+        "&language=it&"
+      ],
+      [
+        "\"Search city\"",
+        "\"Cerca città\""
+      ],
+      [
+        "text: \"FEELS\"",
+        "text: \"PERCEPITA\""
+      ],
+      [
+        "text: \"WIND\"",
+        "text: \"VENTO\""
+      ],
+      [
+        "text: \"HUMID\"",
+        "text: \"UMIDITÀ\""
+      ],
+      [
+        "\"Fetching forecast…\"",
+        "\"Caricamento previsioni…\""
+      ],
+      [
+        "return Qt.formatDate(date, \"dddd\")",
+        "return date.toLocaleDateString(Qt.locale(\"it_IT\"), \"dddd\")"
+      ]
+    ],
+    "Model.js": [
+      [
+        "[\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"]",
+        "[\"domenica\", \"lunedì\", \"martedì\", \"mercoledì\", \"giovedì\", \"venerdì\", \"sabato\"]"
+      ]
+    ]
+  },
+  "omarchy.audio": {
+    "Model.js": [
+      [
+        "return \"Muted\"",
+        "return \"Muto\""
+      ],
+      [
+        "return \"Silenced\"",
+        "return \"Silenzio\""
+      ],
+      [
+        "return \"Concert hall\"",
+        "return \"Sala concerti\""
+      ],
+      [
+        "return \"Party mode\"",
+        "return \"Modalità festa\""
+      ],
+      [
+        "return \"Cranked up\"",
+        "return \"A tutto volume\""
+      ],
+      [
+        "return \"Steady groove\"",
+        "return \"Ritmo costante\""
+      ],
+      [
+        "return \"Easy listening\"",
+        "return \"Ascolto rilassato\""
+      ],
+      [
+        "return \"Murmur\"",
+        "return \"Mormorio\""
+      ],
+      [
+        "return \"Whisper\"",
+        "return \"Sussurro\""
+      ],
+      [
+        "return \"Unknown\"",
+        "return \"Sconosciuto\""
+      ]
+    ],
+    "Panel.qml": [
+      [
+        "? \"Mute\" : \"Unmute\"",
+        "? \"Silenzia\" : \"Riattiva audio\""
+      ],
+      [
+        "text: \"OUTPUT\"",
+        "text: \"USCITA\""
+      ],
+      [
+        "text: \"INPUT\"",
+        "text: \"INGRESSO\""
+      ],
+      [
+        "text: \"SOURCES\"",
+        "text: \"SORGENTI\""
+      ]
+    ]
+  },
+  "omarchy.monitor": {
+    "Model.js": [
+      [
+        "return \"Sun blast\"",
+        "return \"Pieno sole\""
+      ],
+      [
+        "return \"Solar flare\"",
+        "return \"Brillamento\""
+      ],
+      [
+        "return \"Golden hour\"",
+        "return \"Ora dorata\""
+      ],
+      [
+        "return \"Even day\"",
+        "return \"Giornata piena\""
+      ],
+      [
+        "return \"Soft glow\"",
+        "return \"Luce soffusa\""
+      ],
+      [
+        "return \"Lamp light\"",
+        "return \"Luce di lampada\""
+      ],
+      [
+        "return \"Candlelit\"",
+        "return \"A lume di candela\""
+      ],
+      [
+        "return \"Night owl\"",
+        "return \"Nottambulo\""
+      ]
+    ],
+    "Panel.qml": [
+      [
+        "text: \"Display\"",
+        "text: \"Schermo\""
+      ],
+      [
+        "return \"FIXED BRIGHTNESS\"",
+        "return \"LUMINOSITÀ FISSA\""
+      ],
+      [
+        "text: \"BRIGHTNESS\"",
+        "text: \"LUMINOSITÀ\""
+      ],
+      [
+        "text: \"TEXT SIZE\"",
+        "text: \"DIMENSIONE TESTO\""
+      ],
+      [
+        "text: \"SCALE\"",
+        "text: \"SCALA\""
+      ],
+      [
+        "text: \"DISPLAYS\"",
+        "text: \"SCHERMI\""
+      ]
+    ]
+  },
+  "omarchy.reminders": {
+    "ReminderFlow.qml": [
+      [
+        "\"Reminder message\" : \"Remind in minutes\"",
+        "\"Messaggio del promemoria\" : \"Fra quanti minuti\""
+      ],
+      [
+        "\"Invalid reminder\", \"Enter the number of minutes\"",
+        "\"Promemoria non valido\", \"Scrivi il numero di minuti\""
+      ]
+    ]
+  },
+  "omarchy.osd": {
+    "OsdModel.js": [
+      [
+        "message: String(rawMessage || (hasProgress ? (rawProgressText || percent + \"%\") : \"\")),",
+        "message: (function (m) { var t = {\"Shutting down\": \"Spegnimento in corso\", \"Rebooting\": \"Riavvio in corso\", \"Logging out\": \"Uscita dalla sessione\", \"Microphone muted\": \"Microfono disattivato\", \"Microphone on\": \"Microfono attivo\", \"No audio devices found\": \"Nessun dispositivo audio trovato\", \"Touchpad enabled\": \"Touchpad attivato\", \"Touchpad disabled\": \"Touchpad disattivato\", \"Touchscreen enabled\": \"Touchscreen attivato\", \"Touchscreen disabled\": \"Touchscreen disattivato\"}; return t[m] || m })(String(rawMessage || (hasProgress ? (rawProgressText || percent + \"%\") : \"\"))),"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+#!/bin/bash
+# Notifiche di Omarchy in italiano.
+# Sta in una cartella che la sessione mette prima di quella di Omarchy nel PATH
+# (vedi notifiche-it.sh), quindi ogni omarchy-* che manda una notifica passa di
+# qui: traduciamo i testi e poi chiamiamo il comando vero di Omarchy.
+
+kit=$(dirname "$(dirname "$(readlink -f "$0")")")
+for orig in "${OMARCHY_PATH:-/x}/bin/omarchy-notification-send" /usr/share/omarchy/bin/omarchy-notification-send "$HOME/.local/share/omarchy/bin/omarchy-notification-send"; do
+  [[ -x $orig && $orig != "$(readlink -f "$0")" ]] && break
+done
+
+tsv="$kit/notifiche-it.tsv"
+sedfile="$kit/notifiche-it.sed"
+[[ -f $tsv ]] || exec "$orig" "$@"
+
+declare -A it
+while IFS=$'\t' read -r en itt; do
+  [[ -z $en || $en == \#* || -z $itt ]] && continue
+  it["$en"]=$itt
+done <"$tsv"
+
+args=()
+for a in "$@"; do
+  if [[ -n ${it["$a"]:-} ]]; then
+    args+=("${it["$a"]}")
+  elif [[ $a == *" "* && -f $sedfile ]]; then
+    args+=("$(printf '%s' "$a" | sed -E -f "$sedfile")")
+  else
+    args+=("$a")
+  fi
+done
+
+exec "$orig" "${args[@]}"

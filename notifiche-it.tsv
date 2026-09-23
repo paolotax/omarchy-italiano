@@ -1,0 +1,70 @@
+# Notifiche di Omarchy: testo inglese<TAB>italiano. Le righe con # sono commenti.
+# I testi che contengono valori variabili stanno in notifiche-it.sed.
+All reminders have been cleared	Tutti i promemoria sono stati cancellati
+Can't disable the only active display	Non posso spegnere l'unico schermo acceso
+Copied text from selection to clipboard	Testo della selezione copiato negli appunti
+Crash capture disabled	Raccolta dei crash disattivata
+Crash capture enabled	Raccolta dei crash attivata
+Disable single-window square aspect ratio	Disattiva il formato quadrato per finestra singola
+Download complete	Scaricamento completato
+Download failed	Scaricamento non riuscito
+Editing config file	Modifica del file di configurazione
+Edit with Super + Alt + , (or click this)	Modifica con Super + Alt + , (o fai clic qui)
+Enable single-window square aspect ratio	Attiva il formato quadrato per finestra singola
+Extended mode restored	Ripristinata la modalità schermo esteso
+Failed to start Windows VM	Avvio della macchina virtuale Windows non riuscito
+Hold F9 to dictate (or toggle with Super + Ctrl + X).	Tieni premuto F9 per dettare (oppure attiva con Super + Ctrl + X).
+Laptop display disabled	Schermo del portatile spento
+Laptop display enabled	Schermo del portatile acceso
+No background was found for theme	Nessuno sfondo trovato per il tema
+No external monitors found for mirror	Nessun monitor esterno da duplicare
+No laptop display found	Nessuno schermo del portatile trovato
+No laptop monitor found to mirror	Nessuno schermo del portatile da duplicare
+No outstanding reminders	Nessun promemoria in sospeso
+No QR code found	Nessun codice QR trovato
+No RetroArch cores found	Nessun core RetroArch trovato
+No video found for download	Nessun video da scaricare
+No webcam devices found	Nessuna webcam trovata
+Open with Super + Alt + , (or click this)	Apri con Super + Alt + , (o fai clic qui)
+Pending Omarchy Migrations	Aggiornamenti di Omarchy in sospeso
+QR code copied to clipboard	Codice QR copiato negli appunti
+Recording process had to be force-killed. Video may be corrupted.	La registrazione è stata interrotta a forza: il video potrebbe essere rovinato.
+Refusing unsafe monitor name	Nome del monitor non valido, non procedo
+Reminder	Promemoria
+Restore using Super + Home on this workspace.	Ripristina con Super + Home su questo workspace.
+Saved and copied to clipboard.	Salvato e copiato negli appunti.
+Screen recording directory does not exist	La cartella delle registrazioni non esiste
+Screen recording error	Errore nella registrazione dello schermo
+Screen recording saved	Registrazione dello schermo salvata
+Screensaver disabled	Salvaschermo disattivato
+Screensaver enabled	Salvaschermo attivato
+Screensaver only runs in Alacritty, Foot, Ghostty, or Kitty	Il salvaschermo funziona solo con Alacritty, Foot, Ghostty o Kitty
+Screenshot saved to clipboard and file	Screenshot salvato negli appunti e su file
+Select a region containing a QR code	Seleziona l'area che contiene il codice QR
+Start it with Super + Space	Avvialo con Super + Spazio
+Suspend now available in system menu	La sospensione è ora nel menu di sistema
+Suspend removed from system menu	Sospensione tolta dal menu di sistema
+The file chooser did not open	La finestra di scelta file non si è aperta
+Theme removed	Tema rimosso
+Time to recharge!	È ora di mettere in carica!
+Transcoding video…	Conversione del video in corso…
+TUI removed	Applicazione da terminale rimossa
+Upcoming reminders	Prossimi promemoria
+URL copied to clipboard	Indirizzo copiato negli appunti
+Use Super + Alt + Home to save one for this workspace.	Usa Super + Alt + Home per salvarne una per questo workspace.
+Voxtype Dictation Ready	Dettatura Voxtype pronta
+Web app removed	Web app rimossa
+Windows VM	Macchina virtuale Windows
+You must restart Foot to see font change	Riavvia Foot per vedere il cambio di carattere
+You must restart Ghostty to see font change	Riavvia Ghostty per vedere il cambio di carattere
+# Messaggi a schermo (OSD)
+Shutting down	Spegnimento in corso
+Rebooting	Riavvio in corso
+Logging out	Uscita dalla sessione
+Microphone muted	Microfono disattivato
+Microphone on	Microfono attivo
+No audio devices found	Nessun dispositivo audio trovato
+Touchpad enabled	Touchpad attivato
+Touchpad disabled	Touchpad disattivato
+Touchscreen enabled	Touchscreen attivato
+Touchscreen disabled	Touchscreen disattivato

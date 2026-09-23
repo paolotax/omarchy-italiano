@@ -1,0 +1,17 @@
+#!/bin/bash
+# Super+K in italiano: lancia il menu scorciatoie originale di Omarchy
+# traducendo le descrizioni con keybindings-it.tsv (stessa cartella).
+# L'originale non viene toccato: se il dizionario manca si apre quello inglese.
+
+here=$(dirname "$(readlink -f "$0")")
+for orig in "${OMARCHY_PATH:-/x}/bin/omarchy-menu-keybindings" /usr/share/omarchy/bin/omarchy-menu-keybindings "$HOME/.local/share/omarchy/bin/omarchy-menu-keybindings"; do
+  [[ -x $orig ]] && break
+done
+export KB_IT_TSV="$here/keybindings-it.tsv"
+[[ -f $KB_IT_TSV ]] || exec "$orig" "$@"
+
+# Prima della parte finale dello script originale inserisce la traduzione:
+# output_binding_records (che restituisce "tasti → descrizione<TAB>comando")
+# viene avvolta da un filtro awk che cambia solo la descrizione.
+exec bash <(sed -e "s/omarchy-menu-select 'Keybindings'/omarchy-menu-select 'Scorciatoie'/" \
+                -e '/^if \[\[ \$1 == "--print"/i source "'"$here"'/keybindings-it.bash"' "$orig") "$@"
