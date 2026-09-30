@@ -2,7 +2,7 @@
 
 Italian localization kit for [Omarchy](https://omarchy.org): system locale,
 Omarchy menu, top bar panels, keybindings list (Super+K), notifications and
-on-screen messages. It also installs the Italian spell checker, hyphenation
+on-screen messages, and switches Voxtype voice dictation to Italian. It also installs the Italian spell checker, hyphenation
 and thesaurus, plus the Italian LibreOffice UI when LibreOffice is installed.
 
 Omarchy has no built-in translation system. This kit works through user
@@ -27,6 +27,7 @@ The rest of this README is in Italian.
 | Pannelli della barra (orologio a 24 ore, rete, batteria, bluetooth, meteo, audio, schermo) | `plugin-it.sh` | `plugin-it.json` |
 | Elenco scorciatoie (Super+K) | `keybindings-it.sh` | `keybindings-it.tsv` |
 | Notifiche e messaggi a schermo (OSD) di Omarchy | `notifiche-it.sh` | `notifiche-it.tsv`, `notifiche-it.sed` |
+| Dettatura vocale (Voxtype): motore Parakeet v3 multilingue | `voxtype-it.sh` | — |
 
 `italiano.sh` lancia tutti gli altri script. Ognuno si può anche usare da solo,
 e con `--remove` si toglie.
@@ -94,6 +95,12 @@ modo pulito:
 - **notifiche**: mette `bin/` davanti nel `PATH` (in `~/.config/uwsm/default` e
   in `~/.bashrc`). I wrapper `omarchy-notification-send` e `omarchy-osd`
   traducono il testo e poi chiamano il comando originale.
+- **dettatura**: il modello predefinito di Voxtype (Whisper `base.en`) capisce
+  solo l'inglese. Lo script attiva la versione ONNX di Voxtype (con `sudo`),
+  scarica il modello `parakeet-tdt-0.6b-v3-int8` (circa 650 MB), che riconosce
+  da solo l'italiano, e lo imposta. Senza GPU è molto più veloce di Whisper
+  multilingue (su un i5 del 2013 circa 1 secondo invece di 10). Se Voxtype non
+  è installato lo salta. Con `--remove` torna a Whisper.
 
 ## Contribuire
 

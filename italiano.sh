@@ -17,6 +17,7 @@ if [[ ${1:-} == --remove ]]; then
   "$here/plugin-it.sh" --remove
   "$here/keybindings-it.sh" --remove
   "$here/notifiche-it.sh" --remove
+  "$here/voxtype-it.sh" --remove
   sudo localectl set-locale LANG=en_US.UTF-8
   echo
   echo "Inglese impostato. Esci e rientra per applicare tutto."
@@ -39,6 +40,7 @@ sudo pacman -S --needed --noconfirm "${packages[@]}"
 "$here/plugin-it.sh"
 "$here/keybindings-it.sh"
 "$here/notifiche-it.sh"
+"$here/voxtype-it.sh"
 echo
 echo "Fatto. Menu (Super+Alt+Space), barra e scorciatoie (Super+K) sono gia' in italiano."
 echo "Esci e rientra (o riavvia) per il resto del sistema."
